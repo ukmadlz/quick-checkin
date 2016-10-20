@@ -93,3 +93,7 @@ $('#search').on('keyup', function() {
     $('.collection-item').show();
   }
 })
+$('#search-clear').on('click', function() {
+  $('#search').val('');
+  $('.collection-item').show();
+})
